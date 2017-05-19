@@ -73,6 +73,7 @@
     "webpack-merge": "^4.1.0"
   },
   "dependencies": {
+    "antd": "^2.10.1",
     "postcss-loader": "^2.0.5",
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
@@ -81,7 +82,9 @@
     "react-redux": "^5.0.4",
     "react-router-config": "^1.0.0-beta.3",
     "react-router-dom": "^4.1.1",
-    "redux": "^3.6.0"
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "whatwg-fetch": "^2.0.3"
   },
   "engines": {
     "node": ">= 4.0.0",

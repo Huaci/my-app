@@ -4,7 +4,7 @@ import { renderRoutes } from 'react-router-config'
 import { BrowserRouter as Router } from 'react-router-dom'
 import routes from 'routes'
 import logo from './assets/logo.svg'
-import './App.scss'
+import './App.css'
 
 import Counter from 'components/Counter'
 
