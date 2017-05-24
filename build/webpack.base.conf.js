@@ -3,7 +3,7 @@ const utils = require('./utils');
 const config = require('../config');
 
 function resolve (dir) {
-    return path.join(__dirname, '..', dir);
+    return path.join(__dirname, '..', dir);// 拼接我们的工作区路径为一个绝对路径
 }
 
 module.exports = {

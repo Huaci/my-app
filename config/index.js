@@ -5,14 +5,14 @@ module.exports = {
     build: {
         env: require('./prod.env'),
         index: path.resolve(__dirname, '../dist/index.html'),
-        assetsRoot: path.resolve(__dirname, '../dist'),
+        assetsRoot: path.resolve(__dirname, '../dist'),// 编译输出的静态资源路径
         assetsSubDirectory: 'static',
         assetsPublicPath: '/',
         // disable by default for clients should not
         // get your source code from sourceMap.
         // feel free to turn it on when you need sourceMap
         // in production
-        productionSourceMap: false,
+        productionSourceMap: false,// 是否开启 cssSourceMap
         // Gzip off by default as many popular static hosts such as
         // Surge or Netlify already gzip all static assets for you.
         // Before setting to `true`, make sure to:
@@ -26,7 +26,7 @@ module.exports = {
         bundleAnalyzerReport: process.env.npm_config_report
     },
     dev: {
-        env: require('./dev.env'),
+        env: require('./dev.env'),// 使用 config/dev.env.js 中定义的编译环境
         port: 8080,
         autoOpenBrowser: true,
         assetsSubDirectory: 'static',
