@@ -1,7 +1,5 @@
 # my-app
 
-> learn react‘&#x3D;’
-
 ## Usage
 
 ```bash
