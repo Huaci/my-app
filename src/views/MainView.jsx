@@ -14,6 +14,8 @@ export default class MainView extends Component {
         <div className='btn-group'>
           <Link to='/sync' className='btn' activeClassName='active'>To Sync</Link>
           <Link to='/async' className='btn' activeClassName='active'>To Async</Link>
+          <Link to='/about' className='btn' activeClassName='active'>To about</Link>
+          <Link to='/login' className='btn' activeClassName='active'>To login</Link>
         </div>
         <div className='view'>
           {renderRoutes(this.props.route.childRoutes)}

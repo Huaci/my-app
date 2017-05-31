@@ -1,5 +1,7 @@
 import MainView from 'views/MainView'
 import SyncView from 'views/SyncView'
+import HomeView from 'views/HomeView'
+import About from 'views/About'
 import Loadable from 'react-loadable'
 
 export default [
@@ -8,7 +10,15 @@ export default [
     component: MainView,
     childRoutes: [
       {
+        path: '/home',
+        component: HomeView
+      },
+      {
         path: '/sync',
+        component: SyncView
+      },
+      {
+        path: '/login',
         component: SyncView
       },
       {
@@ -21,5 +31,8 @@ export default [
         })
       }
     ]
+  }, {
+    path: '/about',
+    component: About
   }
 ]
